@@ -1,0 +1,191 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "58941",
+      "name": "序号1",
+      "font_class": "number1",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "1257724",
+      "name": "圆形",
+      "font_class": "yuanxing",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "1300587",
+      "name": "爱心",
+      "font_class": "aixin",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "1684595",
+      "name": "王冠",
+      "font_class": "wangguan",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "1739121",
+      "name": "圆形",
+      "font_class": "yuanxing1",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "2088637",
+      "name": "对号",
+      "font_class": "duihao",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "2552600",
+      "name": "序号2",
+      "font_class": "xuhao",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "2849059",
+      "name": "序号3",
+      "font_class": "xuhao1",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "2849315",
+      "name": "序号4",
+      "font_class": "xuhao2",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "3105746",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e786",
+      "unicode_decimal": 59270
+    },
+    {
+      "icon_id": "3277672",
+      "name": "空间",
+      "font_class": "kongjian",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "4992247",
+      "name": "订单",
+      "font_class": "icon-",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "5174134",
+      "name": "化妆品-护肤霜",
+      "font_class": "huazhuangpin-hufushuang",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "5174135",
+      "name": "化妆品-洗面奶",
+      "font_class": "huazhuangpin-ximiannai",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "7846456",
+      "name": "化妆刷-01",
+      "font_class": "huazhuangshua-",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "8106219",
+      "name": "edit",
+      "font_class": "edit",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
+    },
+    {
+      "icon_id": "8106228",
+      "name": "favoriteslist",
+      "font_class": "favoriteslist",
+      "unicode": "e69b",
+      "unicode_decimal": 59035
+    },
+    {
+      "icon_id": "8777509",
+      "name": "arrow_up",
+      "font_class": "icon-test",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "8777511",
+      "name": "arrow_down",
+      "font_class": "icon-test1",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "9520706",
+      "name": "QQ",
+      "font_class": "qq",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "10172816",
+      "name": "二维码",
+      "font_class": "qrcode",
+      "unicode": "e501",
+      "unicode_decimal": 58625
+    },
+    {
+      "icon_id": "10678403",
+      "name": "address list",
+      "font_class": "addresslist",
+      "unicode": "e6db",
+      "unicode_decimal": 59099
+    },
+    {
+      "icon_id": "13040738",
+      "name": "有害垃圾-过期化妆品",
+      "font_class": "youhailaji-guoqihuazhuangpin",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "13200958",
+      "name": "删 除",
+      "font_class": "shanchu",
+      "unicode": "e73f",
+      "unicode_decimal": 59199
+    },
+    {
+      "icon_id": "13530281",
+      "name": "问好",
+      "font_class": "wenhao",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "14607292",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e502",
+      "unicode_decimal": 58626
+    }
+  ]
+}

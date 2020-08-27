@@ -1,0 +1,50 @@
+.banner {
+  height: 233px;
+  padding-top: 94px; }
+
+.popular {
+  width: 107px;
+  height: 25px;
+  float: right;
+  color: #898587;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 25px;
+  margin: 30px 0; }
+
+.WaterFall {
+  min-height: 2200px;
+  position: relative; }
+
+.WaterFall div {
+  width: 245px;
+  position: absolute; }
+
+.WaterFall div p:first-of-type {
+  color: #938f91;
+  width: 100%;
+  height: 25px;
+  position: absolute;
+  bottom: 0;
+  padding: 0 20px;
+  box-sizing: border-box; }
+
+.WaterFall div p:first-of-type img {
+  display: inline-block;
+  width: 24px;
+  height: 24px; }
+
+.WaterFall div p:first-of-type span:first-of-type {
+  margin-left: 31px; }
+
+.WaterFall div p:nth-of-type(2) {
+  color: #938f91;
+  width: 100%;
+  height: 25px;
+  position: absolute;
+  bottom: 15%;
+  padding: 1% 20px;
+  box-sizing: border-box;
+  font-size: 20px; }
+
+/*# sourceMappingURL=meme.css.map */

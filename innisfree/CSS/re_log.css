@@ -1,0 +1,309 @@
+.mask{
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 0;
+    display: none;
+    z-index: 100;
+}
+.regist{
+    width: 1000px;
+    height: 554px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color:white;
+    display: none;
+    /* opacity: 0; */
+    
+}
+.re_header{
+    width: 100%;
+    height: 72px;
+    /* background-color: thistle; */
+    display: flex;
+    justify-content: space-between;
+}
+.re_header span:first-of-type{
+   width: 150px;
+   height: 72px;
+   line-height: 72px;
+   text-align: center;
+   font-size: 18px;
+   color: #898587;
+}
+ .re_header span:nth-of-type(2){
+   align-self: flex-end;
+   color: #024137;
+   font-weight: 400;
+   font-size: 20px;
+ }
+ .re_header span:last-of-type{
+   width: 150px;
+   height: 72px;
+   position: relative;
+}
+
+.re_line{
+    width: 910px;
+    height: 1px;
+    background-color: #898587;
+    margin: auto;
+}
+.regist ul{
+    width: 910px;
+    min-height: 280px;
+    margin: auto;
+    /* background-color: blanchedalmond; */
+    margin-top: 40px;
+}
+.regist ul li{
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    margin-bottom: 20px;
+    color: #898587;
+}
+.regist ul li:last-of-type{
+    font-size: 12px;
+}
+.regist ul li span:first-of-type{
+    color: red;
+}
+.regist ul li div:first-of-type{
+    width: 100px;
+}
+.ret_ph li div:first-of-type{
+    width: 100px;
+    text-align: right;
+}
+.ret_em li div:first-of-type{
+    width: 100px;
+    text-align: right;
+}
+.regist ul li input{
+    padding: 5px 35px;
+    box-sizing: border-box;
+    position: relative;
+}
+.regist .res_btn{
+    display: block;
+    width: 118px;
+    height: 32px;
+    margin: auto;
+    background-color: #024137;
+    border: none;
+    color: white;
+    letter-spacing: 1px;
+}
+.regist .res_btn:hover{
+    cursor: pointer;
+    color: green;
+   
+}
+.regist p{
+    font-size: 12px;
+    text-align: center;
+    color: #898587;
+    margin-top: 20px;
+}
+.login{
+    width: 1000px;
+    height: 415px;
+    /* height: 459px; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color:white;
+    padding: 30px 45px;
+    box-sizing: border-box;
+    z-index: 10;
+    /* position: relative; */
+
+
+
+    display: none;
+
+
+
+}
+.exit{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 26px;
+    height: 26px;
+    /* background-color: blue; */
+    font-size: 26px !important;
+    border: 1px #898587 solid;
+    cursor: pointer;
+}
+.log_line{
+    width: 910px;
+    height: 1px;
+    background-color: #898587;
+    margin: auto;
+}
+.login > p{
+    text-align: center;
+   color: #024137;
+   font-weight: 400;
+   font-size: 18px;
+   letter-spacing: 1px;
+}
+.login li{
+    color: #898587;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.retrieve li{
+    color: #898587;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.se_seOrme {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.se_seOrme span{
+    width: 161px;
+    height: 30px;
+    text-align: center;
+    color: #024137;
+    line-height: 30px;
+    border: 1px #024137 solid;
+    cursor: pointer;
+}
+
+.login li input{
+    padding: 5px 35px;
+    box-sizing: border-box;
+}
+.login .se_login{
+    margin-top: 20px;
+    /* display: none; */
+  
+}
+.me_login{
+    margin-top: 20px;
+    display: none;
+ 
+}
+.ret_ph{
+    margin-top: 20px;
+    /* display: none; */
+}
+.ret_em{
+    margin-top: 20px;
+    display: none;
+}
+.log_btn,.log_mes_btn,.ret_ph_btn{
+    display: block;
+    width: 118px;
+    height: 32px;
+    margin: auto;
+    background-color: #024137;
+    border: none;
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.fd_meOrRes,.fd_res{
+    color: #898587;
+    font-size: 14px;
+    text-align: center;
+    word-spacing: 5px;
+    margin-top: 20px;
+}
+.fa_login{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.fa_login span{
+    color: #83a48a;
+    
+    font-size: 30px;
+    margin-right: 20px;
+}
+.fa_login span:first-of-type{
+    width: 100px;
+    height: 30px;
+    border: 1px #898587 solid;
+    line-height: 30px;
+    text-align: center;
+    color: #898587;
+    font-size: 14px;
+    margin-right: 20px;
+}
+.me_login li > div{
+    width: 100px;
+    text-align: right;
+}
+.retrieve{
+    width: 1000px;
+    height: 415px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color:white;
+    padding: 30px 45px;
+    box-sizing: border-box;
+    z-index: 10;
+    display: none;
+}
+.ret_header{
+    display: flex;
+    justify-content: space-between;
+}
+.ret_header span{
+    width: 60px;
+   text-align: center;
+   font-size: 18px;
+   color: #898587;
+}
+.ret_header span:first-of-type{
+    margin-top: -15px;
+}
+.se_phOrem{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.se_phOrem span{
+    width: 161px;
+    height: 30px;
+    text-align: center;
+    color: #024137;
+    line-height: 30px;
+    border: 1px #024137 solid;
+    cursor: pointer;
+}
+.return{
+    cursor: pointer;
+}
+.fd_meOrRes,.fd_res{
+    cursor: pointer;
+}
+i{
+    font-style: normal;
+    font-size: 10px;
+    color: red;
+    line-height: 25px;
+    position: absolute;
+    left: 772px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>发现</title>
+    <link rel="stylesheet" href="./CSS/found.css">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/re_log.css">
+    <link rel="stylesheet" href="./CSS/header.css">
+    <link rel="stylesheet" href="./CSS/bottom.css">
+    <script src="./JS/yueshifengyin.js"></script>
+    <script src="./Tool/jquery-3.5.1/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="./Tool/字体图标库/font_cg0pircx0jf/iconfont.css">
+</head>
+<body>
+    <div id="box"></div>
+    <div id="box1"></div>
+    <div class="banner safe">
+        <img src="./IMG/FoundImg/banner.png" alt="" srcset="" style=" width: 1280px;
+        height: 233px;">
+    </div >
+    <div class="Popular safe clear">
+        <div class="popular ">热门 ▲</div>
+    </div>
+    <div class="WaterFall safe clear">
+  
+	</div>
+	<div id="box2"></div>
+</body>
+</html>
+<script>
+    $(document).ready(function () {
+      
+       $("#box1").load("./staticHtml/header.html",function(){
+          var sc =  document.createElement("script");
+          sc.src= "./JS/header.js";
+          $("body").append(sc);
+        
+       });
+       $("#box").load("./staticHtml/login_regest.html",function(){
+          var sc1 =  document.createElement("script");
+          sc1.src= "./JS/re_log.js";
+          $("body").append(sc1);
+       });
+       $("#box2").load("./staticHtml/bottom.html");
+})
+</script>
+
+<script>
+    let owaterfall = document.querySelector(".WaterFall");
+	let wf = new WaterFall();
+	
+	wf.createDiv();
+	wf.createDiv();
+	
+
+	let oaixin = document.querySelectorAll(".aixin");
+    for(let i = 0;i<oaixin.length;i++){
+		oaixin[i].onmouseover = function(){
+			oaixin[i].style.cursor = "pointer";
+		}
+		oaixin[i].onclick = function(){
+			oaixin[i].innerHTML = `&#xe602;`;
+			oaixin[i].style.fontSize = "20px";
+			oaixin[i].style.color = "red";
+			oaixin[i].nextElementSibling.innerHTML =2;
+			
+			
+		}
+	}
+</script> 
