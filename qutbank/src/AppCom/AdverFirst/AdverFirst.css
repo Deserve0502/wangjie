@@ -1,0 +1,44 @@
+.AdverImg{
+    width: 100%;
+   
+}
+.btn-pri{
+    position: absolute;
+    top: 60%;
+    width: 100%;
+}
+.pri-hr{
+    position: absolute;
+    top: 20%;
+    width: 100%;
+  
+}
+.ant-divider-inner-text{
+    font-size:30px;
+  
+}
+.pri-intro{
+  
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    top: 60%;
+    width: 100%;
+}
+.ant-btn {
+    font-size: 25px;
+    line-height: 25px;
+    height: 45px;
+}
+.square-wrapper-enter-done{
+    height: 100%;
+}
+.adv_btn{
+    background-color: #1b2d3b !important;
+    color: #ccd1d5 !important;
+    border: none  !important;
+    padding: 0.075rem !important;
+    /* box-sizing: border-box !important; */
+    min-height: 46px !important;
+    font-size: 18px !important;
+}

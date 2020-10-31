@@ -1,0 +1,73 @@
+#components-layout-demo-custom-trigger .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  #components-layout-demo-custom-trigger .trigger:hover {
+    color: #fff6de;
+  }
+ 
+  .back_in .ant-layout-sider-children .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+  }
+  
+  .back_in .site-layout .site-layout-background {
+    background: #fff;
+  }
+  .back_in .ant-layout-sider{
+    background: linear-gradient(to bottom, #00bfdb , #00227e);
+  }
+  .back_in .ant-menu{
+    background-color: transparent !important;
+  }
+  .back_in .ant-menu-item-selected,.ant-menu-item-active{
+      background-color: rgba(242, 232, 255, 0.4) !important;
+   
+  }
+
+  .back_in{
+    height:100%;
+    box-sizing: border-box;
+    
+   
+  }
+  .back_in .ant-layout,.ant-layout-has-sider{
+  height:100%;
+ 
+}
+.back_in .ant-layout-header,.site-layout-background{
+  background-color: #00bfdb !important;
+}
+.back_in .anticon svg{
+  color: #fff;
+}
+.ant-layout-sider, .ant-layout-sider-dark{
+  overflow: auto;
+}
+.ant-layout, .site-layout{
+  overflow: auto;
+}
+.ant-btn {
+  font-size: 16px !important;
+  line-height: 25px;
+  height: 36px !important;
+}
+.backBtn{
+  position:absolute;
+  top:43px;
+  left:20px;
+  cursor: pointer;
+  color: rgba(0,0,0,.45);
+}
+.backBtn:hover{
+  text-decoration: underline;
+ color: black;
+}
+.ant-input {
+  padding: 6px 11px;
+}

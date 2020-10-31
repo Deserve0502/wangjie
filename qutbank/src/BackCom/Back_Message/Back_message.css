@@ -1,0 +1,50 @@
+.table td,.table th{
+    padding: 0.035rem;
+    text-align:center;
+    vertical-align: middle;
+}
+.table {
+    margin-bottom: 0;
+}
+.back_mes .btn-success,.back_mes .btn-warning,.back_mes .btn-danger{
+    border: none;
+    padding: 2px 10px 2px 10px;
+    border-radius: 20px;
+}
+.mes_nav{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.back_mes  Button{
+   margin-right: 20px;
+   border: none;
+}
+.mes_nav > span:first-of-type{
+    width: auto;
+    float: right;
+}
+.mes_nav .ant-btn{
+   
+    align-items: center;
+}
+.back_in .back_mes  .anticon svg{
+    margin-bottom: 5px;
+    
+}
+.back_mes{
+    position: relative;
+    padding-bottom: 35px;
+    box-sizing:border-box
+}
+.mes_page{
+    position: absolute;
+    bottom: -10px;
+    right: 5.5%;
+}
+.back_in .mes_page .anticon  svg{
+    color: black;
+    margin-bottom: 5px;
+}
+.ant-modal-content{
+    box-shadow:  0 5px 15px -5px rgba(0,0,0,.2)!important;
+}

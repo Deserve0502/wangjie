@@ -1,0 +1,22 @@
+/* .log_For{
+    width: 100%;
+    margin-top: 1.5rem;
+    position: relative;
+}
+
+.randomCode_inp .ant-input{
+    width: 1.3rem;
+} */
+.CodeImg{
+    width: 1.25rem;
+    height: 0.6rem;
+    background-color: tomato;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    z-index: 333;
+}
+.CodeImg > img{
+    width: 1.25rem;
+    height: 0.6rem;
+}

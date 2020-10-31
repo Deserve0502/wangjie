@@ -1,0 +1,9 @@
+.ant-drawer-body button{
+    
+    display:block;
+    margin:auto;
+    margin-top: 34px;
+}
+.ant-drawer-body button svg{
+    margin-bottom: 5px;
+}

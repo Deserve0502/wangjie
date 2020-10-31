@@ -1,0 +1,16 @@
+.Inva_bg svg{
+    color: black !important;
+    margin-bottom: 5px;
+}
+
+    .ant-tabs {
+      overflow: visible;
+    }
+.postIn svg{
+  color: white !important;
+
+}
+.inv_li {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  margin-bottom: 10px;
+}

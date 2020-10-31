@@ -1,0 +1,50 @@
+.Enter_err svg{
+color: #ff4d4f !important;
+}
+.Enter_err{
+    margin-top: 6%;
+}
+
+.subject_bg li{
+    margin-bottom: 20px;
+}
+.subject_bg label{
+    margin: 0 !important;
+}
+.subject_bg .ant-radio-wrapper-disabled span{
+    color: black !important;
+}
+.subject_bg .ant-checkbox-disabled + span{
+    color: black !important;
+}
+.subject_bg .ant-checkbox-group{
+    display: flex;
+    flex-direction: column;
+}
+.subject_bg .ant-checkbox-wrapper{
+    padding: 8px;
+   
+}
+.subject_bg .ant-checkbox-group,.subject_bg .ant-radio-group{
+    margin-left: 66px;
+}
+.subject_bg .ant-card-head{
+    background-color: #ddd;
+}
+.subject_bg .ant-card-body{
+    background-color: rgba(221,221,221,0.2);
+}
+.subject_bg .ant-btn-background-ghost{
+    color: black;
+    border-color: black;
+}
+.subject_bg .ant-card,.subject_bg .ant-card-bordered{
+    position: relative ;
+    overflow-x: hidden ;
+}
+.subject_bg .ant-card-extra{
+    display: flex;
+}
+.subject_bg .ant-select-arrow svg{
+    color: black !important;
+}

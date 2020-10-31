@@ -1,0 +1,26 @@
+.back_in .mes_alter .anticon svg {
+color: black;
+}
+.col_lin{
+    line-height: 2;
+    
+}
+.back_in .mes_alter li{
+    margin-top: 40px;
+}
+.mesAlterSvg svg{
+    color: white !important;
+    margin-bottom: 4px;
+}
+.alter_succ {
+    margin-top: 6%;
+}
+.alter_succ svg{
+    color: #52c41a !important;
+}
+.alter_err{
+    margin-top: 6%;
+}
+.alter_err svg{
+    color: #faad14 !important;
+}

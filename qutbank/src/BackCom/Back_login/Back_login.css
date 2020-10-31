@@ -1,0 +1,48 @@
+.bk_login{
+    width: 936px !important; 
+    height: 400px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /* background-color: tomato; */
+}
+.bk_login img{
+    height: 100%;
+  
+}
+.back_form{
+    width: 450px;
+    height: 100%;
+    margin: auto;
+    float: right;
+    /* background-color: turquoise; */
+    
+}
+.back_form p{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+.back_form > div{
+    margin-top: 70px;
+}
+.back_form .ant-btn {
+    display: block;
+    margin: auto;
+    font-size: 14px;
+    width: 70%;
+    height: 30px;
+    border-radius: 20px;
+    line-height: 18px;
+    margin-top: 20px;
+}
+.back_form .ant-form label{
+    margin-left: 10%;
+}
+.back_form .ant-form-item-explain{
+    margin-left: 10%;
+}

@@ -1,0 +1,107 @@
+.login>img {
+
+    display: block;
+    width: 1.865rem;
+    margin: auto;
+    height: 0.8rem;
+position: absolute;
+top: 0.5rem;
+}
+
+.login {
+    height: 100%;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.log_Form {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+
+.login .ant-divider-inner-text {
+    z-index: 3;
+    color: #698394;
+}
+
+
+.login .log_For {
+    width: 100%;
+  padding-top: 1.7rem;
+}
+
+.login .ant-input,
+.ant-input-affix-wrapper {
+    width: 80%;
+    margin-left: 10%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: #647a88 1px solid;
+}
+
+.login .ant-form-item .ant-form-item-label>label {
+    margin-left: 10%;
+    color: #647a88;
+    font-size: 20px;
+}
+
+.login .ant-form-item-has-error .ant-form-item-explain {
+    padding-left: 25%;
+  
+}
+
+.login .logn-btn {
+    width: 82%;
+    margin-left: -25%;
+    border-radius: 20px;
+    margin-top: 0.3rem;
+}
+
+.login .ant-form {
+    
+}
+
+.login .ant-form-item {
+    /* margin: 0 0 10px; */
+}
+
+.login .ant-divider-horizontal.ant-divider-with-text {
+    margin: 0;
+}
+
+
+.log_title{
+    text-align: center;
+    font-size: 30px;
+    font-family: PMingLiU;
+}
+.login .ant-input-affix-wrapper{
+    border: none;
+    height: 0.565rem;
+    box-shadow:3px 0 11px -6px #000;
+    border-radius: 50px;
+}
+.login .ant-input-prefix{
+    box-sizing: border-box;
+    margin-left: 0.2rem;
+}
+.login .login-form-forgot{
+    margin-left: 10%;
+}
+.login .login-form-button{
+    border: none;
+    height: 0.4rem;
+    margin-left: 10%;
+   width: 75%;
+    border-radius: 50px;
+    font-size: 16px;
+}
+.logT{
+    margin-top: 0.4rem;
+    text-align: center;
+    color: #a6b0bd;
+}
